@@ -29,12 +29,12 @@
 	}
 	window.changeLvl = () => {
 		let targetLvl = Number(prompt("Which level should it be?"))
-		let lvlElem = document.getElementsByClassName("friendPlayerLevel")[0]
-		let numberElem = lvlElem.children[0]
-		if (targetLvl > 5299) {
+		if (targetLvl >= 5300 || targetLvl < 0 || targetLvl == NaN || !targetLvl.isFinite) {
 			alert("Invalid Number.")
 			return
 		}
+		let lvlElem = document.getElementsByClassName("friendPlayerLevel")[0]
+		let numberElem = lvlElem.children[0]
 		removalsPlus.forEach(e => {
 			lvlElem.classList.remove(e)
 		})
