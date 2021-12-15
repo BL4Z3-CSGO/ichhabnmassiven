@@ -29,7 +29,7 @@
 	}
 	window.changeLvl = () => {
 		let targetLvl = Number(prompt("Which level should it be?"))
-		if (targetLvl >= 5300 || targetLvl < 0 || targetLvl == NaN || !targetLvl.isFinite) {
+		if (targetLvl >= 5300 || targetLvl < 0 || targetLvl == NaN || targetLvl.isFinite) {
 			alert("Invalid Number.")
 			return
 		}
