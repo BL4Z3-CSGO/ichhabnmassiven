@@ -8,3 +8,10 @@ tampermonkey scripts and utility batch/ps files
 ### Batch/Powershell Scripts
 * #### `w11bypass.bat` - Lets you install Windows 11 without the requirements.
 * #### `lastactivityviewcleaner.bat` - Lets you clean most of the entries in [LastActivityView](https://www.nirsoft.net/utils/computer_activity_view.html)
+
+
+
+
+
+
+###### Not really sure what im doing tbh...
